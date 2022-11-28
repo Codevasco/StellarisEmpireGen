@@ -1,57 +1,41 @@
 package Logic;
 
-import Enumerators.Authority;
-import Enumerators.Ethics;
-import Enumerators.Species;
-import Enumerators.Traits;
+import Options.Authority;
+import Options.Traits;
+import Options.Ethics;
+import Options.Species;
 
 // An Empire is a group of planets and star systems that are ruled by the same government and controlled by a single player (or AI).
 
 public class Empire {
 
-    // Attributes
-
-    private Authority authority;
-    private Ethics ethics;
-    private Species species;
-    private Traits traits;
-
-
-    // Getters and Setters
-
-    public Authority getAuthority() {
-        return authority;
-    }
-
-    public void setAuthority(Authority authority) {
-        this.authority = authority;
-    }
-
-    public Ethics getEthics() {
-        return ethics;
-    }
-
-    public void setEthics(Ethics ethics) {
-        this.ethics = ethics;
-    }
-
-    public Species getSpecies() {
-        return species;
-    }
-
-    public void setSpecies(Species species) {
-        this.species = species;
-    }
-
-    public Traits getTraits() {
-        return traits;
-    }
-    
-    public void setTraits(Traits traits) {
-        this.traits = traits;
-    }
-
-
     // Methods
 
+    public void AuthorityGen() {
+        System.out.println("");
+        System.out.println("Authority:");
+        System.out.println(Authority.randomAuthority());
+        System.out.println("");
+    }
+
+    public void EthicsGen() {
+        System.out.println("Ethics:");
+        System.out.println(Ethics.randomEthics());
+        System.out.println(Ethics.randomEthics());
+        System.out.println("");
+    }
+
+    public void SpeciesGen() {
+        System.out.println("Species:");
+        System.out.println(Species.randomSpecies());
+        System.out.println("");
+    }
+
+    public void TraitsGen() {
+        System.out.println("Traits:");
+        System.out.println(Traits.randomTraits());
+        System.out.println(Traits.randomTraits());
+        System.out.println(Traits.randomTraits());
+        System.out.println("");
+    }
 }

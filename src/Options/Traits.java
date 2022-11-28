@@ -1,4 +1,6 @@
-package Enumerators;
+package Options;
+
+import java.util.Random;
 
 // Traits represents a Species' innate functions, abilities, and personality.
 
@@ -25,5 +27,12 @@ public enum Traits {
     STRONG,
     TALENTED,
     THRIFTY,
-    TRADITIONAL
+    TRADITIONAL;
+
+    public static final Random traitsGen = new Random();
+    private static final Traits[] traits = values();
+
+    public static Traits randomTraits() {
+        return traits[traitsGen.nextInt(traits.length)];
+    }
 }
