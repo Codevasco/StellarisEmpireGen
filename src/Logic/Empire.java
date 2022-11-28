@@ -9,6 +9,24 @@ import Options.Species;
 
 public class Empire {
 
+    // Attributes
+
+    private Authority authority;
+    private Ethics ethics;
+    private Species species;
+    private Traits traits;
+
+
+    // Constructor
+
+    public Empire() {
+        AuthorityGen();
+        EthicsGen();
+        SpeciesGen();
+        TraitsGen();
+    }
+
+
     // Methods
 
     public void AuthorityGen() {
