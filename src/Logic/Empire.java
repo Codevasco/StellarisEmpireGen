@@ -8,15 +8,7 @@ import Options.Species;
 // An Empire is a group of planets and star systems that are ruled by the same government and controlled by a single player (or AI).
 
 public class Empire {
-
-    // Attributes
-
-    private Authority authority;
-    private Ethics ethics;
-    private Species species;
-    private Traits traits;
-
-
+    
     // Constructor
 
     public Empire() {
