@@ -7,6 +7,7 @@ public class Main {
         System.out.println("");
         System.out.println("---------------");
         System.out.println("");
+        
         System.out.println("Stellaris Empire Generator v1");
 
         new Empire();
