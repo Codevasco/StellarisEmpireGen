@@ -10,7 +10,7 @@ public class Main {
         
         System.out.println("Stellaris Empire Generator v2");
 
-        new Empire();
+        Empire empire = new Empire();
 
         System.out.println("---------------");
     }
