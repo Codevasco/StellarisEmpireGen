@@ -2,7 +2,7 @@
 
 #### **Description**
 
-This application generates a civilisation (called an Empire) for the Paradox Interactive game, Stellaris. The Empire has several Options that influence its behaviour within the game, affecting how it plays and what mechanics it has access to. Currently, the application only generates an Empire purely based on the base game and will not include options for DLC-based options and mechanics such as Hive Mind (Utopia DLC), Machine Intelligence (Synthetic Dawn DLC), etc.
+This application generates a civilisation (called an Empire) for the Paradox Interactive game, Stellaris. The Empire has several Options that influence its behaviour within the game, affecting how it plays and what mechanics it has access to. Currently, the application only generates an Empire purely based on the base game and will not include DLC-based options and mechanics such as Hive Mind (Utopia DLC), Machine Intelligence (Synthetic Dawn DLC), etc.
 
 Options include Authority, Ethics, Species and Traits.
 
