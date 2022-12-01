@@ -19,5 +19,5 @@ public enum Ethics {
 
     public static Ethics randomEthics() {
         return ethics[ethicsGen.nextInt(ethics.length)];
-    }
+    } 
 }

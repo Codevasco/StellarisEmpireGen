@@ -32,5 +32,4 @@ public class Empire {
         System.out.println(species);
         System.out.println(traits);
     }
-
  }
