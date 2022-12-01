@@ -25,4 +25,12 @@ public class Empire {
         species = Species.randomSpecies();
         traits = Traits.randomTraits();
     }
+
+    public void EmpireGen() {
+        System.out.println(authority);
+        System.out.println(ethics);
+        System.out.println(species);
+        System.out.println(traits);
+    }
+
  }
