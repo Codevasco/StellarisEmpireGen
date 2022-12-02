@@ -1,6 +1,7 @@
 package Logic;
 
 import Options.Authority;
+import Options.Civics;
 import Options.Traits;
 import Options.Ethics;
 import Options.Species;
@@ -12,6 +13,7 @@ public class Empire {
     // Attributes 
 
     private Authority authority;
+    private Civics civics;
     private Ethics ethics;
     private Species species;
     private Traits traits;
@@ -21,13 +23,18 @@ public class Empire {
 
     public Empire() {
         authority = Authority.randomAuthority();
+        civics = Civics.randomCivics();
         ethics = Ethics.randomEthics();
         species = Species.randomSpecies();
         traits = Traits.randomTraits();
     }
 
+    
+    // Methods
+
     public void EmpireGen() {
         System.out.println(authority);
+        System.out.println(civics);
         System.out.println(ethics);
         System.out.println(species);
         System.out.println(traits);
